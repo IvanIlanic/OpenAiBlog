@@ -1,0 +1,26 @@
+.aiblog__header{
+   
+    font-size: 2.4vw;
+    margin: 12px;
+    padding:16px;
+    color: #000;
+    
+
+}
+h1{
+    font-weight: 300;
+    margin: 12px;
+}
+p{
+    margin: 12px;
+}
+hr{
+    position: relative;
+    justify-content: center;
+    height: 0.2vw;
+    width: 60%;
+    margin: auto;
+    background:#000;
+    display: flex;
+
+}

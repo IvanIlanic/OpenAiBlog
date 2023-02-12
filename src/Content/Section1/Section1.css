@@ -1,0 +1,29 @@
+.Section1 {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    max-width: 60%;
+    font-size: 18px;
+    color: #000;
+    margin: 16px;
+    padding: 18px;
+    margin:auto ;
+}
+
+.Section1 img {
+    width: 40%;
+}
+
+p {
+    margin: 12px;
+    padding: 14px;
+
+}
+
+@media screen and (max-width: 700px) {
+    .Section1 {
+        max-width: 90%;
+        font-size: 12px;
+    }
+    
+}

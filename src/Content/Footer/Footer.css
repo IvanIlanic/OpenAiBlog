@@ -1,0 +1,62 @@
+.aiblog__footer {
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.aiblog__footer  hr{
+    margin-top: 2.4rem;
+    width: 80%;
+
+}
+
+.aiblog__footer a{
+    margin: 2.4rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aiblog__footer ul{
+    margin: 1.2rem 1.2rem;
+    justify-content: space-between;
+    list-style: none;
+    flex-direction: row;
+    display: flex; 
+}
+
+.aiblog__footer ul li {
+    margin: 2.4rem;
+}
+
+.icon {
+    font-size: 150px;
+}
+
+.icons {
+    font-size: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .icons {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .aiblog__footer ul{
+        margin: 1.2rem 1.2rem;
+        justify-content: space-between;
+        list-style: none;
+        flex-direction: column;
+        display: flex; 
+    }
+
+    .icons {
+        font-size: 100px;
+    }
+    
+
+}
+
